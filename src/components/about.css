@@ -1,0 +1,66 @@
+.about {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  margin-top: -75px;
+}
+.about > h1 {
+  font-size: 24vh;
+  margin: 3px;
+}
+.about > img {
+  margin-left: 45%;
+  max-width: 525px;
+}
+.about p {
+  width: fit-content;
+  margin-left: 10%;
+  background-color: rgb(0, 248, 54);
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.aboutme {
+  text-align: center;
+  width: 600px;
+  margin-left: 20%;
+}
+.socialmedia {
+  display: flex;
+}
+.socialmedia > a {
+  text-decoration: none;
+  color: blue;
+}
+.socialmedia > a > p {
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
+}
+@media only screen and (max-width: 600px) {
+  p {
+    background-color: rgb(0, 248, 54);
+  }
+  .about > img {
+    display: none;
+  }
+  .aboutme,
+  .about p {
+    margin-left: 0%;
+    max-width: 80%;
+    margin: 5px;
+  }
+  .about {
+    align-items: center;
+
+    margin-top: -69px;
+  }
+  .socialmedia {
+    display: block;
+  }
+}
+.socialmedia > a > p:hover {
+  background-color: blue;
+  color: whitesmoke;
+}

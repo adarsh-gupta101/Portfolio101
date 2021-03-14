@@ -1,0 +1,22 @@
+li {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+}
+li > a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(112, 108, 112);
+  font-size: larger;
+  z-index: 1;
+}
+.header {
+  display: flex;
+  margin-left: 40%;
+}
+li > a:hover {
+  color: rgb(255, 2, 221);
+  border: 1px solid red;
+  background-color: black;
+}

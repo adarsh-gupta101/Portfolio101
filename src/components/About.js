@@ -5,8 +5,12 @@ const About = () => {
   return (
     <div className="about">
       {" "}
-      <h2></h2>
-      <h1>I Design And Build Digital Stuffs </h1>
+      <div className="top">
+        <h1>I </h1> <h1>Design </h1> <h1>And </h1>
+        <h1>Build </h1>
+        <h1>Digital </h1>
+        <h1>Stuffs </h1>
+      </div>
       <img src={Adarsh} />
       <div className="aboutme">
         <h2>

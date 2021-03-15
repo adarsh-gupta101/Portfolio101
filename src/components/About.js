@@ -56,7 +56,7 @@ const About = () => {
           understand that coding is just pattern recognising and not learning
           each and every syntax
         </p>
-        <p>Atlast I guess Iam an Introvert</p>
+        <p>Atlast I guess Iam an selectively introvert </p>
       </div>
     </div>
   );

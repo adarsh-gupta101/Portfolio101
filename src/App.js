@@ -3,6 +3,8 @@ import About from "./components/About";
 import Banner from "./components/Banner";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
+import Work from "./components/Work";
+import Skills from "./components/Skills";
 function App() {
   return (
     <div className="app">
@@ -17,9 +19,15 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
+            <Route path="/works">
+              <Work />
+            </Route>
 
             <Route path="/">
               <Banner />
+            </Route>
+            <Route path="/skills">
+              <Skills />
             </Route>
           </Switch>
         </div>

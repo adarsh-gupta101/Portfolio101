@@ -13,9 +13,13 @@ const Header = () => {
         </a>
       </li>
       <li>
-        <a exact href="/users">
-          Users
+        <a exact href="/works">
+          My Works
         </a>
+      </li>
+
+      <li>
+        <a href="/skills">Skills</a>
       </li>
     </div>
   );

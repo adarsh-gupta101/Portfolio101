@@ -49,6 +49,9 @@ span {
 #banner__textdata {
   display: none;
 }
+.banner__mobile{
+  display: none;
+}
 .banner > .banner__text > span {
 }
 @media only screen and (max-width: 600px) {
@@ -57,7 +60,10 @@ span {
     font-size: x-small;
   }
   .banner__image{
-    min-width: 100%;
-    margin-top:-55px
+    display: none
+  }
+  .banner__mobile{
+    display: block;
+    
   }
 }

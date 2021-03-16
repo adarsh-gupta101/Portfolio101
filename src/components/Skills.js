@@ -4,6 +4,7 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="skills">
+      hii
       <img src=""></img>
     </div>
   );

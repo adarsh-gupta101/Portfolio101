@@ -1,25 +1,29 @@
 import React from "react";
 import "./header.css";
-import { Link, Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
       <li>
-        <a href="/">Home</a>
+        <Router>
+          <Link to="/">Home</Link>
+        </Router>
       </li>
       <li>
-        <a exact href="/about">
-          About
-        </a>
+        <Router>
+          <Link to="/about">About Me</Link>
+        </Router>
       </li>
       <li>
-        <a exact href="/works">
-          My Works
-        </a>
+        <Router>
+          <Link to="/works">Works</Link>
+        </Router>
       </li>
 
       <li>
-        <a href="/skills">Skills</a>
+        <Router>
+          <Link to="/skills">Skills</Link>
+        </Router>
       </li>
     </div>
   );

@@ -5,25 +5,17 @@ const Header = () => {
   return (
     <div className="header">
       <li>
-        <Router>
-          <Link to="/">Home</Link>
-        </Router>
+        <a href="/">Home</a>
       </li>
       <li>
-        <Router>
-          <Link to="/about">About Me</Link>
-        </Router>
+        <a href="/about">About Me</a>
       </li>
       <li>
-        <Router>
-          <Link to="/works">Works</Link>
-        </Router>
+        <a href="/works">Works</a>
       </li>
 
       <li>
-        <Router>
-          <Link to="/skills">Skills</Link>
-        </Router>
+        <a href="/skills">Skills</a>
       </li>
     </div>
   );

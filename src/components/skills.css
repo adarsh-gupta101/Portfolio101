@@ -1,4 +1,23 @@
 .skills{
     background-color: black;
     margin-top: -55px;
+    display: grid; 
+    ;
+    margin-top: -55px;
+    align-items: center;
+    
+}
+.skills>img{
+    width:22vw;
+    background:rgb(238, 237, 170);
+   
+}
+.skill__image{
+    padding: 15px;
+    margin: 75px;margin-left: 35%;
+    transition: opacity 1s;
+}
+.skill__image:hover{
+    bckground-color: rgb(255, 140, 0);
+    opacity: 0.4;
 }

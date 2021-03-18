@@ -67,3 +67,8 @@ span {
     
   }
 }
+@media only screen and (max-width: 380px) {
+  .banner__mobile{
+    margin-top: -55px;
+  }
+}

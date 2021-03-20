@@ -62,7 +62,10 @@ const About = () => {
           understand that coding is just pattern recognising and not learning
           each and every syntax
         </p>
-        <p className="P_text">Alas, I guess Iam an selectively introvert </p>
+        <p className="P_text">
+          I'm a BTech Student,But a certificate does not define the real "Me"{" "}
+        </p>
+        <p className="P_text">Alas, Curiosity is the reason how I reach here</p>
       </div>
     </div>
   );

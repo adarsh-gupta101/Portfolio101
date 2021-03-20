@@ -17,6 +17,40 @@
   transition: opacity 1s;
 }
 .skill__image:hover {
-  bckground-color: rgb(255, 140, 0);
-  opacity: 0.4;
+  bakground-color: rgb(255, 140, 0);
+}
+.skills {
+  position: relative;
+  top: 50vh;
+  right: -75%;
+  transform: translate(-50%, -50%);
+}
+.tinder {
+  position: absolute;
+  width: 250px;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+div > .tinder > img {
+  background-color: white;
+  padding: 15px;
+  margin: 75px;
+  width: 40vw;
+  height: 350px;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+
+  margin-left: 35%;
+}
+@media only screen and (max-width: 600px) {
+  .skills {
+    top: 50vh;
+    left: 46vw;
+  }
+  div > .tinder > img {
+    width: 55vw;
+    height: 35vw;
+  }
 }

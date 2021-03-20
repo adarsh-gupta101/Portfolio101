@@ -1,24 +1,44 @@
-.work{
-    width:100%;
-    height: 100%;
- background-color: black;
- margin-top: -55px;
- 
+.work {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-top: -55px;
 }
-iframe{
-    margin-top: 125px;
-    margin-left: 15px;
-    overflow:hidden
-    
+iframe {
+  margin-top: 125px;
+  margin-left: 15px;
+  overflow: hidden;
 }
-.iframe::-webkit-scrollbar{
-    display: none;
+.iframe::-webkit-scrollbar {
+  display: none;
 }
-.img{
-    margin: 25px;
-    transition: width 2s;
+.img {
+  margin: 25px;
+  transition: width 2s;
 }
-.img:hover{
-    width: 50%;
-    border: 2px solid white;
+.img:hover {
+  width: 50%;
+  border: 2px solid white;
+}
+
+/* width */
+.iframe::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+.iframe::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+}
+
+/* Handle */
+iframe::-webkit-scrollbar-thumb {
+  background: chartreuse;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #027524;
 }

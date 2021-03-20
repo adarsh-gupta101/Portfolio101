@@ -9,6 +9,7 @@
 .top > h1 {
   font-size: 24vh;
   margin: 3px;
+  margin-top: 35px;
 }
 .about > img {
   margin-left: 45%;
@@ -34,11 +35,11 @@
 .socialmedia > a {
   text-decoration: none;
   color: blue;
+  margin-left: 10px;
 }
 .socialmedia > a > p {
   background-color: white;
   padding: 10px;
-  margin: 25px;
 }
 @media only screen and (max-width: 600px) {
   p {
@@ -47,11 +48,22 @@
   .about > img {
     display: none;
   }
+  .P_text {
+    color: white;
+  }
   .aboutme,
   .about p {
     margin-left: 0%;
-    max-width: 80%;
+    width: 98vw;
     margin: 5px;
+  }
+  .top > h1 {
+    color: rgb(212, 212, 212);
+    font-size: 15vh;
+    margin-top: ;
+  }
+  .top {
+    margin-top: 65px;
   }
   .about {
     align-items: center;
@@ -75,10 +87,24 @@
   }
 }
 .about__top {
-  height: 8px;
+  height: 5px;
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: chartreuse;
+}
+.about__left {
+  height: 100vh;
+  width: 6px;
+  position: fixed;
+  top: 0;
+  background-color: chartreuse;
+}
+.about__bottom {
+  height: 6px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   background-color: chartreuse;
 }
 /* width */

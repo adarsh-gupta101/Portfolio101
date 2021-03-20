@@ -3,13 +3,12 @@
   background-color: rgb(0, 0, 0);
   color: white;
   width: 100%;
-  margin-top: -75px;
+  margin-top: -55px;
   position: relative;
 }
 .top > h1 {
   font-size: 24vh;
   margin: 3px;
-  
 }
 .about > img {
   margin-left: 45%;
@@ -22,7 +21,7 @@
   border-radius: 15px;
   padding: 15px;
   margin-bottom: 15px;
-  font-size:large;
+  font-size: large;
 }
 .aboutme {
   text-align: center;
@@ -67,12 +66,39 @@
   background-color: blue;
   color: whitesmoke;
 }
-@media only screen and( max-width:367px){
-  .about{
+@media only screen and( max-width:367px) {
+  .about {
     margin-top: -55px;
   }
-  .about>h1{
+  .about > h1 {
     margin-top: 25px;
   }
+}
+.about__top {
+  height: 8px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: chartreuse;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: chartreuse;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #027524;
 }

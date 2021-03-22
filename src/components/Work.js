@@ -26,10 +26,17 @@ const Work = () => {
         marginwidth="0"
         marginheight="0"
       />
-
+<iframe src="https://6058cd9b7c3d8b00bc42b6dd--adarshairbnbclonemern.netlify.app/"
+     width="90%"
+        height="550px"
+        scrolling="yes"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0" />
+    
       <img className="img" src={project} width="40%" height="auto" />
       <img className="img" src={project2} width="40%" height="auto" />
-      <img className="img" src={project3} width="40%" height="auto" />
+      //<img className="img" src={project3} width="40%" height="auto" />
     </div>
   );
 };

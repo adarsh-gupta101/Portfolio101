@@ -26,7 +26,7 @@ const Work = () => {
         marginwidth="0"
         marginheight="0"
       />
-<iframe src="https://6058d147f8c0a100b56d4772--adarshairbnbclonemern.netlify.app/"
+<iframe src="https://6059548f3f0f1a245e25fb98--adarshairbnbclonemern.netlify.app/"
      width="90%"
         height="550px"
         scrolling="yes"

@@ -46,7 +46,7 @@ div > .tinder > img {
 }
 @media only screen and (max-width: 600px) {
   .skills {
-    top: 50vh;
+    top: 45vh;
     left: 46vw;
   }
   div > .tinder > img {

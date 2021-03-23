@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router, Redirect } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
@@ -11,7 +11,7 @@ const Header = () => {
         <a href="/about">About Me</a>
       </li>
       <li>
-        <a href="/works">Works</a>
+        <a href="/work">Works</a>
       </li>
 
       <li>

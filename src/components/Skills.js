@@ -4,6 +4,15 @@ import TinderCard from "react-tinder-card";
 const db = [
   {
     src:
+      "https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+  },
+  {
+    src:
+      "https://img.flaticon.com/icons/png/512/174/174854.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF",
+  },
+  { src: "https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg" },
+  {
+    src:
       "https://www.freecodecamp.org/news/content/images/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
   },
   {

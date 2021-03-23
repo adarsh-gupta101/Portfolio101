@@ -22,17 +22,17 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/about" component={About}>
+            <Route path="/about">
               <About />
             </Route>
-            <Route path="/works" component={withRouter(Work)}>
+            <Route path="/work">
               <Work />
             </Route>
 
-            <Route path="/" exact component={Banner}>
+            <Route path="*" exact>
               <Banner />
             </Route>
-            <Route path="/skills" component={Skills}>
+            <Route path="/skills">
               <Skills />
             </Route>
           </Switch>

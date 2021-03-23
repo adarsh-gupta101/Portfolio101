@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./about.css";
 import Adarsh from "./adarsh2.png";
+
+const scroll = () => {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY) {
+      return true;
+    }
+  });
+};
 const About = () => {
+  const [show, handleShow] = useState(false);
+  const [wid, setwidth] = useState(10);
+
   return (
     <div className="about">
       {" "}

@@ -28,12 +28,11 @@ function App() {
             <Route path="/work">
               <Work />
             </Route>
-
-            <Route path="*" exact>
-              <Banner />
-            </Route>
             <Route path="/skills">
               <Skills />
+            </Route>
+            <Route path="/" exact>
+              <Banner />
             </Route>
           </Switch>
         </div>

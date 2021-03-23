@@ -36,8 +36,7 @@ const Work = () => {
     
       <img className="img" src={project} width="40%" height="auto" />
       <img className="img" src={project2} width="40%" height="auto" />
-      //<img className="img" src={project3} width="40%" height="auto" />
-    //hello
+   
     </div>
   );
 };
